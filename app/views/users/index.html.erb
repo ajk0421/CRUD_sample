@@ -5,7 +5,7 @@
   <p>名前：<%= u.name %></p>
   <p>年齢：<%= u.age %></p>
   <p>(
-    <%= link_to "編集",edit_user_path(u.id) %>:
+    <%= link_to "編集",edit_user_path(u.id),method: :get %>:
     )</p>
   <p>-----------------</p>
 <% end %>
